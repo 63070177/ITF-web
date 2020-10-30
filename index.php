@@ -1,4 +1,4 @@
 <?php
-echo "<h2>ITAKMITL</h>";
+echo "<h2>IT@KMITL</h>";
 echo "Hello IT<br>";
 ?>
