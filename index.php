@@ -8,7 +8,7 @@
         <p>Cat and Dora</p>
         <img src="cat.jpg">
         <br>
-        <img src="cartoon-7.jpg">
+        <img src="cat0.jpg">
         <br>
         <a href="https://www.dek-d.com/">My fav web</a>
 
