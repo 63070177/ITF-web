@@ -5,10 +5,10 @@
     <body>
         <h1>My name: Supichaya Thamsuna</h1>
         <h2>My nickname: Guitar</h2>
-        <p>     Cat and Dora</p>
+        <p>Cat and Dora</p>
         <img src="cat.jpg">
         <br>
-        <img src=""cartoon-7.jpg>
+        <img src="cartoon-7.jpg">
         <br>
         <a href="https://www.dek-d.com/">My fav web</a>
 
