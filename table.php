@@ -37,7 +37,7 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['Name'];?></div></td>
     <td><?php echo $Result['Comment'];?></td>
     <td><button type="button" class="btn btn-outline-danger">ลบ</button>
-       <button type="button" class="btn btn-outline-info">เพิ่ม</button> 
+       <button type="button" class="btn btn-outline-info">แก้ไข</button> 
     </td>
   </tr>
 <?php
@@ -45,6 +45,10 @@ while($Result = mysqli_fetch_array($res))
 ?>
   </tbody>
 </table>
+
+<form action = "insert.php" method = "post" id="CommentForm" >
+  <button type="button" class="btn btn-outline-info">เพิ่ม</button> 
+</form>
 <?php
 mysqli_close($conn);
 ?>
