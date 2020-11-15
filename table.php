@@ -49,7 +49,7 @@ while($Result = mysqli_fetch_array($res))
 mysqli_close($conn);
 ?>
 <div class="card">
-<a target="_blank" href="https://supichayathamsuna.azurewebsites.net/form.html" class="button">เพิ่ม</a>
+<a target="_blank" href="https://supichayathamsuna.azurewebsites.net/form.html" class="btn btn-outline-info">เพิ่ม</a>
  </div>
 </body>
 </html>
