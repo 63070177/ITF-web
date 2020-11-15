@@ -21,11 +21,14 @@ if (mysqli_connect_errno($conn))
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <table class="table table-dark table-striped" width="600" border="1">
+  <thead>
   <tr>
     <th width="100"> <div align="center">Name</div></th>
     <th width="350"> <div align="center">Comment </div></th>
     <th width="350"> <div align="center">Action </div></th>
   </tr>
+   </thead>
+  <tbody>
 <?php
 while($Result = mysqli_fetch_array($res))
 {
@@ -40,6 +43,7 @@ while($Result = mysqli_fetch_array($res))
 <?php
 }
 ?>
+  </tbody>
 </table>
 <?php
 mysqli_close($conn);
