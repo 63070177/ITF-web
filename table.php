@@ -48,6 +48,8 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<button onclick="form.html">เพิ่ม</button>
+<form action = "form.php" method = "post" id="CommentForm" >
+  <button type="button" class="btn btn-outline-info">เพิ่ม</button> 
+  </form>
 </body>
 </html>
