@@ -47,7 +47,7 @@ while($Result = mysqli_fetch_array($res))
 </table>
 
 
-  <input type="button" class="btn btn-outline-info">
+  <input type="button" class="btn btn-outline-info" name="เพิ่ม">
 
 <?php
 mysqli_close($conn);
