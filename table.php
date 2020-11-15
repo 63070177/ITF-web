@@ -46,9 +46,9 @@ while($Result = mysqli_fetch_array($res))
   </tbody>
 </table>
 
-<form action = "insert.php" method = "post" id="CommentForm" >
-  <button type="button" class="btn btn-outline-info">เพิ่ม</button> 
-</form>
+
+  <input type="button" class="btn btn-outline-info">
+
 <?php
 mysqli_close($conn);
 ?>
