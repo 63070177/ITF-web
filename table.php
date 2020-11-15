@@ -46,9 +46,7 @@ while($Result = mysqli_fetch_array($res))
   </tbody>
 </table>
 
-<form action = "form.html" >
-  <button type="button" class="btn btn-outline-info">เพิ่ม</button> 
-</form>
+<button onclick="form.html">เพิ่ม</button>
 <?php
 mysqli_close($conn);
 ?>
