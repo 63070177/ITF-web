@@ -50,5 +50,6 @@ mysqli_close($conn);
 ?>
 <div class="card">
 <a target="_blank" href="https://supichayathamsuna.azurewebsites.net/form.html" class="button">เพิ่ม</a>
+ </div>
 </body>
 </html>
