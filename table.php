@@ -48,8 +48,7 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<form action = "form.php" method = "post" id="CommentForm" >
-  <button type="button" class="btn btn-outline-info">เพิ่ม</button> 
-  </form>
+<div class="card">
+<a target="_blank" href="https://supichayathamsuna.azurewebsites.net/form.html" class="button">เพิ่ม</a>
 </body>
 </html>
