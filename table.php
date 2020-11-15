@@ -45,10 +45,9 @@ while($Result = mysqli_fetch_array($res))
 ?>
   </tbody>
 </table>
-
-<button onclick="form.html">เพิ่ม</button>
 <?php
 mysqli_close($conn);
 ?>
+<button onclick="form.html">เพิ่ม</button>
 </body>
 </html>
