@@ -38,7 +38,7 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['Comment'];?></td>
       <form action='delete.php' method="post">
     <td>
-      <form action='delete.php' method="post" id="CommentForm">
+      <form action='delete.php' method="post" id=<?php echo $your_id;?>';">
       <button type="button" class="btn btn-outline-danger">ลบ</button>
       </form>
        <button type="button" class="btn btn-outline-info">แก้ไข</button> 
