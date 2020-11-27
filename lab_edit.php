@@ -11,15 +11,13 @@ if (mysqli_connect_errno($conn))
 $Product = $_POST['Product'];
 $Price = $_POST['Price'];
 $Discount = $_POST['Discount'];
-$Total = $_POST['Price'] * ((100 - $_POST['Discount'])/100);
+$Totalnew = $_POST['Price'] * ((100 - $_POST['Discount'])/100);
 
-
-
-$sql = "INSERT INTO lab (Product , Price , Discount , Total) VALUES ('$Product', '$Price', '$Discount' , '$Total')";
+$sql = "UPDATE lab SET Price='$Price', Discount='$Discount', Total='$Totalnew' WHERE Product='$Product'";
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New record created successfully";
+    echo "Edit successfully";
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }

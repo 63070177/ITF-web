@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<title>Form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -13,7 +12,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <form action="lab_insert.php" class="was-validated" method = "post" id="Form2" >
+<form action="lab_edit.php" class="was-validated" method = "post" id="Form2" >
         <div class="form-group">
           <label for="A">ชื่อสินค้า</label>
           <input type="text" class="form-control" id="Product" placeholder="Enter Product" name="Product" required>
@@ -34,6 +33,5 @@
         </div>
         <button type="submit" class="btn btn-primary" id="commentButton">Submit</button>
       </form>
-</div>
 </body>
 </html>
